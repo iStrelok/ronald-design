@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* Estilo de letras para los enlaces y botón de la barra superior */
+nav {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav > a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600px;
+    text-transform: uppercase;
+}
+
+.yellowBorder {
+    border-bottom: 5px solid #f79000;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+}
+
+.hoverYellowColor:hover {
+    border-bottom: 5px solid #f79000;
+    padding-top: 22px;
+    width: 100%;
+    padding-bottom: 14px;
+}
+
+.requestBudget > p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.difference {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+}
+
+.staticText {
+    font-family: "Reno", Sans-serif;
+    font-size: 65px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2em;
+} 
+
+.dinamicText {
+    color: #ffa659;
+    font-family: "Reno", Sans-serif;
+    font-size: 111px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 0.5em;
+}
+
+.ml2 {
+  font-weight: 800;
+  font-size: 111px;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 0.5em;
+}
+
+/* #474747 */
+
+.especiality {
+    font-size: 51px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+.card {
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 16px 40px -16px rgba(0,0,0,0.5);
+}
+
+.works {
+    color: #424242;
+    font-size: 35px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+}
+
+.working {
+    color: #474747;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+}
+
+.yellowBorderBottomSeparator {
+    /* text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #ffc400; */
+    border-bottom: 4px solid #ffc400;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolioImgRadius {
+    border-radius: 10px;
+}
+
+.maxAttention {
+    color: #424242;
+    font-size: 51px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+.successEstrategies {
+    color: #424242;
+    font-family: "Reno", Sans-serif;
+    font-size: 34px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
