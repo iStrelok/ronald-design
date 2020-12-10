@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 /* Estilo de letras para los enlaces y botón de la barra superior */
+
 nav {
     padding-left: 15px;
     padding-right: 15px;
@@ -8,7 +9,7 @@ nav {
     padding-bottom: 20px;
 }
 
-nav > a {
+nav>a {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 600px;
@@ -30,7 +31,7 @@ nav > a {
     padding-bottom: 14px;
 }
 
-.requestBudget > p {
+.requestBudget>p {
     line-height: 1.5;
     font-size: 16px;
 }
@@ -45,30 +46,26 @@ nav > a {
 
 .staticText {
     font-family: "Reno", Sans-serif;
-    font-size: 65px;
     font-weight: 900;
     text-transform: uppercase;
     line-height: 1.2em;
-} 
+}
 
 .dinamicText {
     color: #ffa659;
-    font-family: "Reno", Sans-serif;
-    font-size: 111px;
-    font-weight: 800;
-    text-transform: uppercase;
-    line-height: 0.5em;
+    line-height: 0.8em;
 }
 
 .ml2 {
-  font-weight: 800;
-  font-size: 111px;
+    font-weight: 800;
+    font-size: 111px;
 }
 
 .ml2 .letter {
-  display: inline-block;
-  line-height: 0.5em;
+    display: inline-block;
+    line-height: 0.5em;
 }
+
 
 /* #474747 */
 
@@ -81,7 +78,7 @@ nav > a {
 
 .card {
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 0px 16px 40px -16px rgba(0,0,0,0.5);
+    box-shadow: 0px 16px 40px -16px rgba(0, 0, 0, 0.5);
 }
 
 .works {
@@ -93,13 +90,14 @@ nav > a {
     letter-spacing: 0px;
 }
 
-.working {
+
+/* .working {
     color: #474747;
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 9px;
-}
+} */
 
 .yellowBorderBottomSeparator {
     /* text-align: center;
@@ -116,14 +114,6 @@ nav > a {
     border-radius: 10px;
 }
 
-.maxAttention {
-    color: #424242;
-    font-size: 51px;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 1.2em;
-}
-
 .successEstrategies {
     color: #424242;
     font-family: "Reno", Sans-serif;
@@ -131,4 +121,261 @@ nav > a {
     font-weight: 900;
     text-transform: uppercase;
     line-height: 1.2em;
+}
+
+.card-title {
+    color: #424242;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.card-body {
+    color: #424242;
+    margin: 0 0 10px;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 300px !important;
+    line-height: 26px;
+}
+
+.requestInfo>p {
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.yellowBorderForButtom {
+    border: 1px solid #EAB033;
+}
+
+.card-title-features {
+    color: #424242;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.2rem;
+    letter-spacing: -0, 6px;
+}
+
+.footerTitle {
+    border-left: 8px solid #ffd738;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+ul>li {
+    line-height: 35px;
+}
+
+.footerFinal {
+    background: rgb(29, 29, 29);
+    z-index: 1;
+}
+
+.facebook {
+    color: red;
+}
+
+@media (min-width: 640px) {
+    .ml2 {
+        font-weight: 800;
+        font-size: 40px;
+    }
+    .ml2 .letter {
+        display: inline-block;
+        line-height: 1.5em;
+    }
+    .secondSectionLightText {
+        color: #474747;
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .secondSectionBoldText {
+        color: #474747;
+        font-size: 30px;
+        margin-top: 5px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.2em;
+    }
+    .secondSectionExtenseText {
+        margin-top: 20px;
+        color: #474747;
+        font-family: Montserrat, Arial, sans-serif;
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .thirdSectionMediumTitle {
+        color: #ffa659;
+        font-family: 'Montserrat', Sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.2em;
+    }
+    .thirdSectionCenterText {
+        color: #fff;
+        font-family: 'Montserrat', Sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.2em;
+        letter-spacing: -0.4px;
+    }
+    .thirdSectionExtenseText {
+        margin-top: 20px;
+        color: #fff;
+        font-family: Montserrat, Arial, sans-serif;
+        font-size: 17px;
+        line-height: 26px
+    }
+    .thirdSectionFinalText {
+        color: #ffffff;
+        font-family: 'Reno', Sans-serif;
+        font-size: 23px;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 1.2em;
+        letter-spacing: 0.1px;
+    }
+    .working {
+        color: #474747;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    .serviceExperienceBoldText {
+        color: #424242;
+        font-size: 29px;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 1.2em;
+    }
+    .serviceExperienceExtenseText {
+        margin-top: 20px;
+        color: #474747;
+        font-family: Montserrat, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .successEstrategiesLightText {
+        color: #474747;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 3.5px;
+    }
+    .successEstrategiesBoldText {
+        color: #474747;
+        font-family: "Reno", Sans-serif;
+        font-size: 27px;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 1.5em;
+    }
+}
+
+@media (min-width: 768px) {
+    .ml2 {
+        font-weight: 800;
+        font-size: 111px;
+    }
+    .ml2 .letter {
+        display: inline-block;
+        line-height: 0.5em;
+    }
+    .secondSectionLightText {
+        color: #474747;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+    }
+    .secondSectionBoldText {
+        color: #474747;
+        font-size: 51px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.2em;
+    }
+    .secondSectionExtenseText {
+        margin-top: 20px;
+        color: #474747;
+        font-family: Montserrat, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .thirdSectionMediumTitle {
+        color: #ffa659;
+        font-family: 'Montserrat', Sans-serif;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 1.2em;
+    }
+    .thirdSectionCenterText {
+        color: #fff;
+        font-family: 'Montserrat', Sans-serif;
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 1.2em;
+    }
+    .thirdSectionExtenseText {
+        margin-top: 20px;
+        color: #fff;
+        font-family: Montserrat, Arial, sans-serif;
+        font-size: 21px;
+        line-height: 26px
+    }
+    .thirdSectionFinalText {
+        color: #ffffff;
+        font-family: 'Reno', Sans-serif;
+        font-size: 23px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.2em;
+        letter-spacing: 0.1px;
+    }
+    .working {
+        color: #474747;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 9px;
+    }
+    .serviceExperienceBoldText {
+        color: #424242;
+        font-size: 51px;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 1.2em;
+    }
+    .serviceExperienceExtenseText {
+        margin-top: 20px;
+        color: #474747;
+        font-family: Montserrat, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .successEstrategiesLightText {
+        color: #474747;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+    }
+    .successEstrategiesBoldText {
+        color: #474747;
+        font-family: "Reno", Sans-serif;
+        font-size: 34px;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 1.2em;
+    }
 }
