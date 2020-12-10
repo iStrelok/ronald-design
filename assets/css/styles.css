@@ -182,6 +182,37 @@ ul>li {
     color: red;
 }
 
+.secondSectionLightText {
+    color: #474747;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.secondSectionBoldText {
+    color: #474747;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+.secondSectionExtenseText {
+    margin-top: 20px;
+    color: #474747;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+@media (min-width: 639px) {
+    .secondSectionLightText>.alignEspecialitiesText {
+        text-align: center;
+    }
+}
+
 @media (min-width: 640px) {
     .ml2 {
         font-weight: 800;
@@ -190,28 +221,6 @@ ul>li {
     .ml2 .letter {
         display: inline-block;
         line-height: 1.5em;
-    }
-    .secondSectionLightText {
-        color: #474747;
-        font-size: 11px;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-    .secondSectionBoldText {
-        color: #474747;
-        font-size: 30px;
-        margin-top: 5px;
-        font-weight: 700;
-        text-transform: uppercase;
-        line-height: 1.2em;
-    }
-    .secondSectionExtenseText {
-        margin-top: 20px;
-        color: #474747;
-        font-family: Montserrat, Arial, sans-serif;
-        font-size: 15px;
-        line-height: 26px;
     }
     .thirdSectionMediumTitle {
         color: #ffa659;
@@ -293,25 +302,15 @@ ul>li {
     }
     .secondSectionLightText {
         color: #474747;
-        font-size: 12px;
-        font-weight: 600;
-        text-transform: uppercase;
         letter-spacing: 8px;
     }
-    .secondSectionBoldText {
-        color: #474747;
-        font-size: 51px;
-        font-weight: 700;
-        text-transform: uppercase;
-        line-height: 1.2em;
-    }
-    .secondSectionExtenseText {
+    /* .secondSectionExtenseText {
         margin-top: 20px;
         color: #474747;
         font-family: Montserrat, Arial, sans-serif;
         font-size: 14px;
         line-height: 26px;
-    }
+    } */
     .thirdSectionMediumTitle {
         color: #ffa659;
         font-family: 'Montserrat', Sans-serif;

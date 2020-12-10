@@ -12,7 +12,6 @@
 
 <body>
     <div class="hero h-screen bg-fixed bg-indigo-600" style="background-image: url(assets/img/lion.jpg); background-size: cover;">
-        <!-- This example requires Tailwind CSS v2.0+ -->
         <div class="relative bg-none w-full">
             <div class="max-w-7xl mx-auto sm:px-4 md:px-4 lg:px-4">
                 <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
@@ -26,13 +25,12 @@
                     <div class="mr-2 -my-2 md:hidden">
                         <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span class="sr-only">Open menu</span>
-                        <!-- Heroicon name: menu -->
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
                     </button>
                     </div>
-                    <nav class="hidden md:flex space-x-10 h-20 md:items-center">
+                    <nav class="hidden md:flex md:space-x-10 lg:space-x-14 h-20 md:items-center">
                         <a href="#" class="yellowBorder active:text-yellow-500 text-yellow-500">
                             INICIO
                         </a>
@@ -48,9 +46,6 @@
                         <a href="#" class="hoverYellowColor text-white hover:text-yellow-500">
                             CLIENTES
                         </a>
-                        <!-- <a href="#" class="text-white hover:text-gray-900">
-                            NOVEDADES
-                        </a> -->
                         <a href="#" class="text-white hover:text-gray-900">
                             CONTACTO
                         </a>
@@ -100,44 +95,43 @@
         </div>
     </div>
 
-    <div class="sm:py-20 md:py-20 lg:py-20 sm:px-14 md:px-14 lg:px-14">
-        <div class="sm:flex sm:flex-col-reverse md:grid lg:grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-            <div class="h-auto md:ml-12 lg:md:ml-12 col-span-1">
-                <div class="secondSectionLightText sm:text-center md:text-left lg:text-left w-full">
-                    <p class="">ESPECIALISTAS EN DISEÑO DE PÁGINAS WEB</p>
-                </div>
-                <div class="secondSectionBoldText sm:text-center md:text-left lg:text-left">
-                    <p class="">
-                        VOX DISEÑO WEB
-                    </p>
-                </div>
-                <div class="secondSectionExtenseText col-span-1 sm:text-center md:text-left lg:text-left">
-                    <p class="break-words">
-                        En VOX brindamos servicio de <b>diseño web premium</b>.<br> Desarrollamos páginas web de alto impacto apuntadas a maximizar<br> resultados. Somos especialistas en generar soluciones a medida y diseño personalizado para cada cliente.
-                    </p>
-                </div>
-                <div class="sm:flex sm:justify-center md:flex lg:flex md:justify-start lg:justify-start mt-14">
-                    <a href="#" class="yellowBorderForButtom whitespace-nowrap items-center text-center justify-center px-8 py-4 rounded-full shadow-sm font-medium text-yellow-500 bg-none">
-                        <button class="requestBudget">
-                            <p class="font-medium">CONSULTÁNOS</p>
-                        </button>
-                    </a>
-                </div>
+    <div class="flex flex-col-reverse m-6 text-3xl sm:flex sm:flex-col-reverse sm:mx-2 md:flex md:flex-col-reverse md:mt-14 lg:grid lg:grid-cols-2">
+        <div class="col-span-1 sm:col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1 sm:mx-12">
+
+            <div class="secondSectionLightText md:text-xl uppercase text-sm text-center font-semibold mt-2 tracking-normal sm:text-center md:text-center lg:text-left">
+                <p class="">ESPECIALISTAS EN DISEÑO DE PÁGINAS WEB</p>
             </div>
-            <div class="mr-12 col-span-1">
-                <img class="mx-auto h-56" src="assets/img/diseno-web.jpg" alt="PC">
+
+            <div class="uppercase text-3xl text-center font-bold leading-tight sm:text-center md:text-center md:text-5xl lg:text-left xl:text-left" style="color: #474747;">
+                <p class="">VOX DISEÑO WEB</p>
             </div>
+
+            <div class="secondSectionExtenseText text-center break-words text-base sm:text-center md:text-center lg:text-left lg:text-4xl">
+                <p class="">
+                    En VOX brindamos servicio de <b>diseño web premium</b>. <br>Desarrollamos páginas web de alto impacto apuntadas a maximizar resultados. Somos especialistas en generar soluciones a medida y diseño personalizado para cada cliente.
+                </p>
+            </div>
+            <div class="flex justify-center mt-12 mb-12 sm:justify-center md:justify-center lg:justify-start">
+                <a href="#" class="yellowBorderForButtom whitespace-nowrap items-center text-center justify-center px-8 py-4 rounded-full shadow-sm font-medium text-yellow-500 bg-none">
+                    <button class="requestBudget">
+                        <p class="font-medium">CONSULTÁNOS</p>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="col-span-1 mt-6 sm:col-span-1 md:col-span-1">
+            <img class="mx-auto h-28 sm:h-48 md:h-64" src="assets/img/pc.png" alt="Computadora">
         </div>
     </div>
 
-    <div class="md:py-20" style="background-image: url(assets/img/liondark.jpg); background-size: cover;">
-        <div class="sm:invisible text-center w-full">
-            <i class="fa fa-quote-left fa-5x" aria-hidden="true" style="position: relative;width: 1em; height: 1em"></i>
+    <div class="py-6" style="background-image: url(assets/img/liondark.jpg); background-size: cover;">
+        <div class="text-center w-full sm:invisible md:invisible lg:visible">
+            <i class="fa fa-quote-left fa-5x" aria-hidden="true" style="position: relative;width: 1em; height: 1em;"></i>
         </div>
-        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-            <div class="h-auto md:ml-12 lg:md:ml-12 col-span-1">
+        <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+            <div class="h-auto md:ml-12 col-span-1 lg:col-span-1">
                 <div class="thirdSectionMediumTitle">
-                    <p class="flex justify-center">
+                    <p class="flex justify-center text-white col-span-1">
                         Nuestra Misión
                     </p>
                 </div>
@@ -160,10 +154,8 @@
         </div>
     </div>
 
-    <!-- PORTFOLIO -->
-    <div class="justify-center items-center">
+    <!--<div class="justify-center items-center">
 
-        <!-- TITULO PORTFOLIO -->
         <div class="mt-12 mx-auto px-4 sm:px-8 py-2 text-center">
             <div class="text-center max-w-lg mx-auto mt-6 mb-14">
                 <div class="h-auto block mx-auto rounded-sm">
@@ -246,9 +238,7 @@
                 </a>
             </div>
         </div>
-        <!-- END PORTFOLIO -->
 
-        <!-- MAXIMA ATENCIÓN AL DETALLE -->
         <div class="md:py-20 lg:py-20 md:px-14 lg:px-14">
             <div class="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
                 <div class="h-auto md:ml-12 md:ml-12 lg:ml-12 lg:ml-12">
@@ -278,9 +268,7 @@
                 </div>
             </div>
         </div>
-        <!-- END MAXIMA ATENCIÓN AL DETALLE -->
 
-        <!-- GENERAMOS ESTRATEGIAS EXITOSAS -->
         <div class="sm:px-6 md:px-14 lg:px-14">
             <div class="text-center">
                 <div class="successEstrategiesLightText w-full">
@@ -339,12 +327,9 @@
             </div>
         </div>
         <hr>
-        <!-- END GENERAMOS ESTRATEGIAS EXITOSAS -->
 
-        <!-- MAS DE 10 AÑOS -->
         <div class="justify-center items-center">
 
-            <!-- +10 AÑOS DE EXPERIENCIA -->
             <div class="mt-4 mx-auto px-4 sm:px-8 py-2 text-center">
                 <div class="text-center mx-auto w-full mt-6 mb-2">
                     <div class="h-auto w-auto block mx-auto rounded-sm">
@@ -375,7 +360,6 @@
                                     ende sus resultados.
                                 </h2>
                                 <div class="flex justify-left mt-6 items-end">
-                                    <!-- <div class="rounded-sm h-8 w-20 px-4 bg-gray-200 mr-2"></div> -->
                                     <div class="md:flex lg:flex md:justify-center lg:justify-center">
                                         <a href="#" class="yellowBorderForButtom whitespace-nowrap items-center text-center justify-center px-6 py-2 border-yellow-500 rounded-full shadow-sm font-medium text-yellow-500 bg-none">
                                             <button class="requestInfo">
@@ -421,9 +405,7 @@
                     </div>
                 </div>
             </div>
-            <!-- FIN +10 AÑOS DE EXPERIENCIA -->
 
-            <!-- CARACTERISTICAS -->
             <hr class="mt-28">
             <div class="justify-center items-center md:mb-96">
 
@@ -506,13 +488,10 @@
                     </div>
                 </div>
             </div>
-            <!-- FIN CARACTERISTICAS -->
 
-            <!-- FORMULARIO DE CONTACTO -->
             <hr class="mt-28">
             <div class="justify-center items-center">
                 <div class="md:px-48">
-                    <!-- TITULO -->
                     <div class="text-center mt-12">
                         <h2 class="" style="
                     color:#474747;
@@ -571,9 +550,7 @@
                     </form>
                 </div>
             </div>
-            <!-- FIN FORMULARIO DE CONTACTO -->
 
-            <!-- FOOTER -->
             <div class="" style="
         background-color: #2c2c2c;
         padding: 30px 0 45px;
@@ -655,33 +632,33 @@
                 </div>
             </div>
         </div>
-        <!-- FIN FOOTER -->
+    -->
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-        <script>
-            // Wrap every letter in a span
-            var textWrapper = document.querySelector('.ml2');
-            textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script>
+        // Wrap every letter in a span
+        var textWrapper = document.querySelector('.ml2');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-            anime.timeline({
-                    loop: true
-                })
-                .add({
-                    targets: '.ml2 .letter',
-                    scale: [4, 1],
-                    opacity: [0, 1],
-                    translateZ: 0,
-                    easing: "easeOutExpo",
-                    duration: 950,
-                    delay: (el, i) => 70 * i
-                }).add({
-                    targets: '.ml2',
-                    opacity: 0,
-                    duration: 1000,
-                    easing: "easeOutExpo",
-                    delay: 1000
-                });
-        </script>
+        anime.timeline({
+                loop: true
+            })
+            .add({
+                targets: '.ml2 .letter',
+                scale: [4, 1],
+                opacity: [0, 1],
+                translateZ: 0,
+                easing: "easeOutExpo",
+                duration: 950,
+                delay: (el, i) => 70 * i
+            }).add({
+                targets: '.ml2',
+                opacity: 0,
+                duration: 1000,
+                easing: "easeOutExpo",
+                delay: 1000
+            });
+    </script>
 </body>
 
 </html>
