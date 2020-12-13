@@ -10,10 +10,16 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <script src="https://kit.fontawesome.com/4de23de287.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/cookie.css">
+    <link rel="stylesheet" href="assets/css/bxslider.css">    
 </head>
 
 <body class="overflow-x:hidden !important;">
-    <!-- <div class="hero h-screen bg-fixed bg-indigo-600 bg-gradient-to-l" style="background-image: url(assets/img/lion.jpg); background-size: cover;">
+
+ <div class="text-white mt-0 py-0 w-full h-full bg-fixed" style="background: #f12711;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ ">
+    <header class="flex md:justify-between p-8">
         <div class="relative bg-none w-full">
             <div class="max-w-7xl mx-auto sm:px-4 md:px-4 lg:px-4">
                 <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
@@ -33,28 +39,27 @@
                     </button>
                     </div>
                     <nav class="hidden md:flex md:space-x-6 lg:space-x-14 h-20 md:items-center">
-                        <a href="#" class="yellowBorder active:text-yellow-500 text-yellow-500">
+                        <a href="#" class="menuText active:text-white-500 text-white-500">
                             INICIO
                         </a>
-                        <a href="#" class="hoverYellowColor text-white hover:text-yellow-500">
+                        <a href="#" class="menuText text-white hover:text-white-500">
                             ACERCA
                         </a>
-                        <a href="#" class="hoverYellowColor text-white hover:text-yellow-500">
+                        <a href="#" class="menuText text-white hover:text-white-500">
                             PORTFOLIO
                         </a>
-                        <a href="#" class="hoverYellowColor text-white hover:text-yellow-500">
+                        <a href="#" class="menuText text-white hover:text-white-500">
                             SERVICIOS
                         </a>
-                        <a href="#" class="hoverYellowColor text-white hover:text-yellow-500">
+                        <a href="#" class="menuText text-white hover:text-white-500">
                             CLIENTES
                         </a>
-                        <a href="#" class="hoverYellowColor text-white hover:text-yellow-500">
+                        <a href="#" class="menuText text-white hover:text-white-500">
                             CONTACTO
                         </a>
                     </nav>
                     <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0 md:invisible lg:visible">
-
-                        <a href="#" class="ml-12 whitespace-nowrap inline-flex items-center text-center justify-center px-12 py-2 border-2 border-white rounded-full shadow-sm text-base font-medium text-white bg-none">
+                        <a href="#" class="hoverButton ml-12 whitespace-nowrap inline-flex items-center text-center justify-center px-12 py-2 border-2 border-white rounded-full shadow-sm text-base font-medium text-white bg-none">
                             <button class="requestBudget">
                                 <p style="margin-bottom: -8px;">Solicitar</p>
                                 <p>Presupuesto</p>
@@ -64,55 +69,17 @@
                 </div>
             </div>
         </div>
-        <div class="hero-text container flex flex-col justify-start h-auto mx-auto sm:py-8 sm:px-4 md:px-2 lg:py-16">
-            <div class="mt-12">
-                <div class="invisible sm:invisible md:visible lg:visible md:px-2 lg:px-2">
-                    <p class="difference tracking-widest md:text-xl lg:text-xl">
-                        NOS DIFERENCIAMOS, TE DIFERENCIAMOS
-                    </p>
-                </div>
-                <div class="w-full mt-6 ml-8 md:ml-2 md:px-2 md:py-4 lg:px-2 lg:py-4">
-                    <p class="font-black uppercase text-5xl sm:text-4xl md:text-5xl lg:text-7xl text-white">
-                        DISEÑO WEB PREMIUM
-                    </p>
-                </div>
-                <div class="mt-6 ml-8 md:ml-2 lg:px-2">
-                    <p class="dinamicText font-extrabold text-5xl sm:text-xs md:text-7xl lg:text-9xl ml2">
-                        CALIDAD
-                    </p>
-                </div>
-            </div>
-            <div class="flex justify-start ml-8 mt-12 sm:mt-12 md:mt-16 md:mb-24 md:px-2 lg:mt-12 lg:px-2">
-                <a href="#" class="whitespace-nowrap items-center text-center justify-center px-8 py-4 border-2 border-white rounded-full shadow-sm font-medium text-white bg-none">
-                    <button class="requestBudget">
-                        <p class="font-medium">CONOCÉ MÁS</p>
-                    </button>
-                </a>
-            </div>
-        </div>
-    </div>
- -->
- <div class="text-white mt-0 py-0 w-full h-full bg-fixed" style="background: #f12711;  /* fallback for old browsers */
- background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
- background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- ">
-    <header class="flex md:justify-between p-8">
-        <div class="flex align-items-center">
-            <h1 class="inline text-white sm:text-3xl text-2xl font-bold"><a href="/">Esta vista es experimental</a></h1>
-        </div>
-        <div class="lg:flex md:text-white hidden">
-            
-        </div>
     </header>
-    <section class="px-2 lg:px-0 mt-16 sm:mt-32 lg:mt-2 flex w-full container mx-auto pb-16">
-        <div class="w-full text-white flex justify-center md:justify-start text-center md:text-left">
+    <section class="px-2 lg:px-0 sm:mt-2 lg:mt-2 flex w-full container mx-auto pb-36">
+        <div class="w-full text-white flex justify-center md:block text-center lg:flex lg:justify-start lg:mt-12">
                 <!-- ACOMODAR EL ITEMS CENTER PARA TODAS PANTALLAS-->
-                <div class="md:w-1/2 w-full md:flex md:items-center">
-                <h2 class="leading-none text-gray-800 font-bold text-2xl xs:text-2x1 md:text-7xl lg:7xl uppercase">DISEÑO WEB <br><span class="">PROFESIONAL</span></h2>
+            <div class="md:w-1/2 w-full md:w-full md:block md:text-center md:items-center">
+                <h2 class="leading-none text-white font-bold text-4xl xs:text-2x1 md:text-7xl lg:7xl uppercase lg:mt-12">DISEÑO WEB <br><span class="ml2">PROFESIONAL</span></h2>
             </div>
-            <div class="md:w-1/2 md:justify-center md:flex hidden">
-                <svg with="400" height="400" version="1.1" id="pcHero" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                viewBox="0 0 511.999 511.999" style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve">
+            <div class="md:w-1/2 flex justify-center md:flex md:justify-center hidden bxSlider gap-x-4">
+                <div>
+                    <svg class="svg" with="300" height="300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 511.999 511.999"  xml:space="preserve">
            <g>
                <g>
                    <path d="M481.091,27.937H30.909C13.866,27.937,0,41.803,0,58.846v310.819c0,17.043,13.866,30.909,30.909,30.909h154.26v22.49
@@ -174,6 +141,148 @@
            <g>
            </g>
            </svg>
+                 </div>
+                <div>
+                    <svg class="svg" with="300" height="300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 502 502" style="enable-background:new 0 0 502 502;" xml:space="preserve">
+                    <g>
+                        <g>
+                            <g>
+                                <path d="M230.523,78.722c-35.583-0.342-69.221,13.48-94.756,38.802C110.239,142.84,96.18,176.363,96.18,211.92
+                                    c0,34.708,13.278,67.567,37.387,92.524c24,24.844,37.216,57.409,37.216,91.697v13.156v57.125c0,5.523,4.477,10,10,10h12.756
+                                    C197.871,491.185,211.53,502,227.676,502s29.805-10.815,34.138-25.578h16.166c5.523,0,10-4.477,10-10v-57.125v-13.15
+                                    c0-34.627,12.99-66.961,36.576-91.044c24.522-25.04,38.027-58.133,38.027-93.185c0-35.38-13.723-68.697-38.64-93.812
+                                    C299.041,93.006,265.864,79.02,230.523,78.722z M227.676,482c-4.787,0-9.076-2.17-11.936-5.578h23.872
+                                    C236.752,479.83,232.463,482,227.676,482z M267.98,456.422h-14.726h-51.156h-11.315v-37.125h77.197V456.422z M310.267,291.109
+                                    c-27.269,27.844-42.287,65.148-42.287,105.039v3.15h-77.197v-3.156c0-39.5-15.211-77-42.832-105.593
+                                    c-20.488-21.208-31.771-49.133-31.771-78.629c0-30.183,11.958-58.663,33.67-80.194c21.72-21.538,50.338-33.226,80.505-33.005
+                                    c61.882,0.521,112.228,51.301,112.228,113.197C342.583,241.707,331.106,269.83,310.267,291.109z"/>
+                                <path d="M229.381,55.584c5.523,0,10-4.477,10-10V10c0-5.523-4.477-10-10-10c-5.523,0-10,4.477-10,10v35.584
+                                    C219.381,51.107,223.858,55.584,229.381,55.584z"/>
+                                <path d="M85.246,29.896c1.957,2.693,5.006,4.123,8.099,4.123c2.038,0,4.095-0.621,5.87-1.91c4.468-3.247,5.458-9.5,2.212-13.968
+                                    l-7.108-9.783C91.073,3.89,84.82,2.9,80.351,6.146c-4.468,3.247-5.458,9.5-2.212,13.968L85.246,29.896z"/>
+                                <path d="M124.729,84.239c1.957,2.693,5.006,4.123,8.099,4.123c2.038,0,4.095-0.621,5.87-1.91c4.468-3.246,5.458-9.5,2.212-13.968
+                                    l-19.113-26.308c-3.246-4.468-9.499-5.459-13.968-2.212c-4.468,3.246-5.458,9.5-2.212,13.968L124.729,84.239z"/>
+                                <path d="M37.031,160.15l33.843,10.996c1.027,0.333,2.068,0.492,3.092,0.492c4.215,0,8.136-2.687,9.509-6.913
+                                    c1.707-5.253-1.168-10.894-6.42-12.601l-33.843-10.996c-5.251-1.705-10.894,1.168-12.601,6.42
+                                    C28.904,152.802,31.778,158.443,37.031,160.15z"/>
+                                <path d="M84.808,260.51c-1.707-5.253-7.346-8.126-12.601-6.42l-33.843,10.996c-5.252,1.707-8.127,7.348-6.42,12.601
+                                    c1.373,4.226,5.293,6.913,9.509,6.913c1.024,0,2.065-0.159,3.092-0.492l33.843-10.996
+                                    C83.64,271.404,86.514,265.763,84.808,260.51z"/>
+                                <path d="M102.626,391.668c-4.467-3.246-10.721-2.255-13.968,2.212l-8.903,12.253c-3.246,4.468-2.256,10.722,2.212,13.968
+                                    c1.775,1.29,3.832,1.91,5.87,1.91c3.092,0,6.142-1.43,8.099-4.123l8.903-12.253C108.085,401.168,107.095,394.915,102.626,391.668
+                                    z"/>
+                                <path d="M134.544,347.736c-4.468-3.246-10.722-2.255-13.968,2.212l-8.845,12.175c-3.246,4.468-2.255,10.722,2.212,13.968
+                                    c1.775,1.29,3.832,1.91,5.87,1.91c3.092,0,6.142-1.43,8.099-4.123l8.845-12.175C140.003,357.236,139.012,350.982,134.544,347.736
+                                    z"/>
+                                <path d="M338.347,336.895c-3.246-4.468-9.499-5.459-13.968-2.212c-4.468,3.247-5.458,9.5-2.212,13.968l20.916,28.789
+                                    c1.957,2.693,5.006,4.123,8.099,4.123c2.038,0,4.095-0.621,5.87-1.91c4.468-3.247,5.458-9.5,2.212-13.968L338.347,336.895z"/>
+                                <path d="M426.045,260.984l-33.843-10.997c-5.252-1.705-10.894,1.168-12.601,6.42c-1.707,5.252,1.168,10.894,6.42,12.601
+                                    l33.843,10.997c1.027,0.333,2.068,0.492,3.092,0.492c4.215,0,8.136-2.687,9.509-6.913
+                                    C434.172,268.333,431.298,262.691,426.045,260.984z"/>
+                                <path d="M471.39,130.367c-1.706-5.252-7.347-8.127-12.601-6.42l-14.678,4.769c-5.252,1.707-8.127,7.348-6.42,12.601
+                                    c1.373,4.226,5.293,6.913,9.509,6.913c1.024,0,2.065-0.159,3.092-0.492l14.678-4.769
+                                    C470.222,141.261,473.096,135.62,471.39,130.367z"/>
+                                <path d="M387.777,167.536c1.024,0,2.065-0.159,3.092-0.492l25.994-8.446c5.252-1.707,8.127-7.348,6.42-12.601
+                                    c-1.707-5.252-7.347-8.127-12.601-6.42l-25.994,8.446c-5.252,1.707-8.127,7.348-6.42,12.601
+                                    C379.642,164.849,383.562,167.536,387.777,167.536z"/>
+                                <path d="M320.89,83.916c1.775,1.29,3.832,1.91,5.87,1.91c3.092,0,6.142-1.43,8.099-4.123l20.916-28.789
+                                    c3.246-4.468,2.255-10.722-2.212-13.968c-4.469-3.246-10.722-2.255-13.968,2.212l-20.916,28.789
+                                    C315.431,74.416,316.422,80.669,320.89,83.916z"/>
+                                <path d="M288.349,135.549c-11.289-8.76-24.609-14.981-38.521-17.992c-5.395-1.169-10.721,2.26-11.889,7.659
+                                    c-1.168,5.398,2.261,10.721,7.659,11.889c11.007,2.382,21.55,7.308,30.491,14.245c1.823,1.415,3.981,2.1,6.124,2.1
+                                    c2.984,0,5.937-1.33,7.907-3.87C293.505,145.217,292.712,138.935,288.349,135.549z"/>
+                                <path d="M202.914,119.066c-41.096,11.729-69.797,49.799-69.797,92.579c0,5.523,4.477,10,10,10s10-4.477,10-10
+                                    c0-33.895,22.735-64.056,55.287-73.346c5.311-1.516,8.387-7.05,6.872-12.361C213.758,120.628,208.224,117.55,202.914,119.066z"/>
+                            </g>
+                        </g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    </svg>
+                </div>
+                <div>
+                    <svg class="svg" with="300" height="300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 502 502" style="enable-background:new 0 0 502 502;" xml:space="preserve">
+                    <g>
+                        <g>
+                            <g>
+                                <path d="M384.5,0h-267c-5.523,0-10,4.477-10,10v387v95c0,5.523,4.477,10,10,10h267c5.522,0,10-4.477,10-10v-95V10
+                                    C394.5,4.477,390.022,0,384.5,0z M374.5,482h-247v-75h247V482z M374.5,387h-247V20h247V387z"/>
+                                <path d="M251,470c14.337,0,26-11.664,26-26s-11.663-26-26-26c-5.523,0-10,4.477-10,10s4.477,10,10,10c3.309,0,6,2.691,6,6
+                                    c0,3.309-2.691,6-6,6c-2.316,0-4.386-1.295-5.402-3.38c-2.42-4.965-8.407-7.028-13.371-4.608
+                                    c-4.964,2.42-7.027,8.406-4.608,13.371C231.948,464.262,241.125,470,251,470z"/>
+                                <path d="M155,55h122c5.522,0,10-4.477,10-10s-4.478-10-10-10H155c-5.523,0-10,4.477-10,10S149.477,55,155,55z"/>
+                                <path d="M313,55h14c5.522,0,10-4.477,10-10s-4.478-10-10-10h-14c-5.522,0-10,4.477-10,10S307.478,55,313,55z"/>
+                                <path d="M154,371h39.59c5.523,0,10-4.477,10-10v-74c0-5.523-4.477-10-10-10H154c-5.523,0-10,4.477-10,10v74
+                                    C144,366.523,148.477,371,154,371z M164,297h19.59v54H164V297z"/>
+                                <path d="M270.79,201H231.2c-5.523,0-10,4.477-10,10v150c0,5.523,4.477,10,10,10h39.59c5.522,0,10-4.477,10-10V211
+                                    C280.79,205.477,276.312,201,270.79,201z M260.79,351H241.2V221h19.59V351z"/>
+                                <path d="M307.41,371H347c5.522,0,10-4.477,10-10V132c0-5.523-4.478-10-10-10h-39.59c-5.522,0-10,4.477-10,10v229
+                                    C297.41,366.523,301.888,371,307.41,371z M317.41,142H337v209h-19.59V142z"/>
+                            </g>
+                        </g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    </svg>
+                </div>
             </div>
         </div>
     </section>
@@ -196,7 +305,7 @@
                 </p>
             </div>
             <div class="flex justify-center mt-12 mb-12 sm:justify-center md:justify-center lg:justify-start">
-                <a href="#" class="yellowBorderForButtom whitespace-nowrap items-center text-center justify-center px-8 py-4 rounded-full shadow-sm font-medium text-yellow-500 bg-none">
+                <a href="#" class="yellowBorderForButtom hover:bg-yellow-500 hover:text-white  whitespace-nowrap items-center text-center justify-center px-8 py-4 rounded-full shadow-sm font-medium text-yellow-500 bg-none" style="transition: .5s ease;">
                     <button class="requestBudget">
                         <p class="font-medium">CONSULTÁNOS</p>
                     </button>
@@ -500,7 +609,7 @@
                 </div>
             </div>
             <div class="verMasTrabajosButton md:flex lg:flex md:justify-center lg:justify-center mt-14">
-                <a href="#" class="yellowBorderForButtom whitespace-nowrap items-center text-center justify-center px-8 py-4 rounded-full shadow-sm font-medium text-yellow-500 bg-none">
+                <a href="#" class="yellowBorderForButtom hover:bg-yellow-500 hover:text-white whitespace-nowrap items-center text-center justify-center px-8 py-4 rounded-full shadow-sm font-medium text-yellow-500 bg-none" style="transition: .5s ease;">
                     <button class="requestBudget">
                     <p class="font-medium">VER MÁS TRABAJOS</p>
                 </button>
@@ -529,7 +638,7 @@
                     </div>
                 </div>
                 <div class="flex justify-center md:flex lg:flex md:justify-center lg:justify-center mt-14">
-                    <a href="#" class="yellowBorderForButtom whitespace-nowrap items-center text-center justify-center px-8 py-4 rounded-full shadow-sm font-medium text-yellow-500 bg-none">
+                    <a href="#" class="yellowBorderForButtom hover:bg-yellow-500 hover:text-white whitespace-nowrap items-center text-center justify-center px-8 py-4 rounded-full shadow-sm font-medium text-yellow-500 bg-none" style="transition: .5s ease;">
                         <button class="requestBudget">
                         <p class="font-medium">VER TRABAJOS</p>
                     </button>
@@ -623,7 +732,7 @@
                                 </h2>
                                 <div class="flex justify-left mt-6 sm:mt-8 items-end">
                                     <div class="md:flex lg:flex md:justify-center lg:justify-center">
-                                        <a href="#" class="yellowBorderForButtom whitespace-nowrap items-center text-center justify-center px-6 py-2 border-yellow-500 rounded-full shadow-sm font-medium text-yellow-500 bg-none">
+                                        <a href="#" class="yellowBorderForButtom hover:bg-yellow-500 hover:text-white whitespace-nowrap items-center text-center justify-center px-6 py-2 border-yellow-500 rounded-full shadow-sm font-medium text-yellow-500 bg-none" style="transition: .5s ease;">
                                             <button class="requestInfo">
                                         <p class="font-normal">MÁS INFO</p>
                                     </button>
@@ -690,7 +799,7 @@
                                     </h2>
                                     <div class="flex justify-left mt-6 sm:mt-8 items-end">
                                         <div class="md:flex lg:flex md:justify-center lg:justify-center">
-                                            <a href="#" class="yellowBorderForButtom whitespace-nowrap items-center text-center justify-center px-6 py-2 border-yellow-500 rounded-full shadow-sm font-medium text-yellow-500 bg-none">
+                                            <a href="#" class="yellowBorderForButtom hover:bg-yellow-500 hover:text-white whitespace-nowrap items-center text-center justify-center px-6 py-2 border-yellow-500 rounded-full shadow-sm font-medium text-yellow-500 bg-none" style="transition: .5s ease;">
                                                 <button class="requestInfo">
                                             <p class="font-normal">MÁS INFO</p>
                                         </button>
@@ -899,7 +1008,7 @@
                                 <textarea class="border border-blue-200 block mx-auto py-2 px-4 w-full rounded focus:outline-none" type="text" id="message" name="message" rows="4" required></textarea>
                             </div>
                             <div class="flex justify-center mt-6">
-                                <button class="submitForm px-8 py-2 rounded text-white bg-gray-800">
+                                <button class="submitForm px-8 py-2 rounded text-white bg-gray-800 hover:bg-yellow-500 hover:text-white" style="transition: .5s ease;">
                                    <i class="fa fa-share"></i> ENVIAR
                                 </button>
                             </div>
@@ -1039,43 +1148,10 @@
             <script src="https://unpkg.com/scrollreveal"></script>
             <script src="assets/js/scroll.js"></script>
             <script src="assets/js/enviarCorreo.js"></script>
-
-            <script>
-                var svg = new Walkway({
-                        selector: '#pcHero',
-                        duration: '2000',
-                        // can pass in a function or a string like 'easeOutQuint'
-                        easing: function (t) {
-                            return t * t;
-                        }
-                    });
-
-                    svg.draw();
-            </script>
-            <!-- <script>
-                // Wrap every letter in a span
-                var textWrapper = document.querySelector('.ml2');
-                textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-                anime.timeline({
-                        loop: true
-                    })
-                    .add({
-                        targets: '.ml2 .letter',
-                        scale: [4, 1],
-                        opacity: [0, 1],
-                        translateZ: 0,
-                        easing: "easeOutExpo",
-                        duration: 950,
-                        delay: (el, i) => 70 * i
-                    }).add({
-                        targets: '.ml2',
-                        opacity: 0,
-                        duration: 1000,
-                        easing: "easeOutExpo",
-                        delay: 1000
-                    });
-            </script> -->
+            <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+            <script src="assets/js/bxSlider.js"></script>
+            <script src="assets/js/letters.js"></script>
+            <script src="assets/js/animationText.js"></script>
 </body>
 
 </html>

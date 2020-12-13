@@ -7,10 +7,22 @@
 svg {
     width: 400px;
     height: 400px;
+    background: none !important;
+}
+
+.menuText:hover {
+    color: #2c2c2c;
+    border-bottom: 4px #FFF solid;
+    font-size: 14px;
+    transition: .5s ease;
+}
+
+.bx-wrapper {
+    background: none;
 }
 
 path, line, polyline {
-    stroke: #FFf;
+    stroke: rgb(177, 27, 27);
     stroke-width: 3px;
 }
 
@@ -48,6 +60,13 @@ nav>a {
 
 .hoverYellowColor:hover {
     border-bottom: 0px solid #f79000;
+}
+
+.hoverButton:hover {
+    color: #2c2c2c;
+    background: #FFF;
+    font-size: 14px;
+    transition: .5s ease;
 }
 
 .requestBudget>p {
@@ -278,9 +297,21 @@ ul>li {
     line-height: 26px;
 }
 
-@media (min-width: 639px) {
+@media (min-width: 300px) {
     .secondSectionLightText>.alignEspecialitiesText {
         text-align: center;
+    }
+    .ml2 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 635px) {
+    .secondSectionLightText>.alignEspecialitiesText {
+        text-align: center;
+    }
+    .ml2 {
+        font-size: 70px;
     }
 }
 
@@ -359,6 +390,9 @@ ul>li {
         font-weight: 900;
         text-transform: uppercase;
         line-height: 1.5em;
+    }
+    .ml2 {
+        font-size: 50px;
     }
 }
 
@@ -447,5 +481,11 @@ ul>li {
         font-weight: 900;
         text-transform: uppercase;
         line-height: 1.2em;
+    }
+    .ml2 {
+        font-size: 70px;
+    }
+    .bxSlider {
+        display: 0;
     }
 }
