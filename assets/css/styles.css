@@ -2,6 +2,28 @@
 
 /* Estilo de letras para los enlaces y botón de la barra superior */
 
+/* SVG HERO CONTAINER */
+
+svg {
+    width: 400px;
+    height: 400px;
+}
+
+path, line, polyline {
+    stroke: #FFf;
+    stroke-width: 3px;
+}
+
+path {
+    fill: transparent;
+}
+
+path:before {
+    fill: #FFF;
+}
+
+/* END SVG HERO CONTAINER */ 
+
 nav {
     padding-left: 15px;
     padding-right: 15px;
@@ -25,14 +47,10 @@ nav>a {
 }
 
 .hoverYellowColor:hover {
-    border-bottom: 5px solid #f79000;
-    padding-top: 22px;
-    width: 100%;
-    padding-bottom: 14px;
+    border-bottom: 0px solid #f79000;
 }
 
 .requestBudget>p {
-    line-height: 1.5;
     font-size: 16px;
 }
 
@@ -58,7 +76,6 @@ nav>a {
 
 .ml2 {
     font-weight: 800;
-    font-size: 111px;
 }
 
 .ml2 .letter {
@@ -179,7 +196,19 @@ ul>li {
 }
 
 .facebook {
-    color: red;
+    color: #5872A7;
+}
+
+.twitter {
+    color: #37afd1;
+}
+
+.googlePlus {
+    color: #DB4A37;
+}
+
+.linkedin {
+    color: #017EB4;
 }
 
 .secondSectionLightText {
